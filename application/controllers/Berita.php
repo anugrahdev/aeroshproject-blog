@@ -18,7 +18,7 @@ class Berita extends CI_Controller {
 
 		$config['base_url']  	 = base_url('berita/index/');
 		$config['total_rows'] 	 = count($this->berita_model->total());
-		$config['per_page']		 = 3;
+		$config['per_page']		 = 6;
 		$config['uri_segment']   = 3;
 
 			//limit dan start
